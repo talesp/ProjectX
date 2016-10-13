@@ -4,15 +4,55 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CoreProjectX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Projeto X.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Siri.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SiriUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>023162B71DAEE020005AA6EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>02581D941DAF00BF00DF30F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>02581DA51DAF00F400DF30F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>02796C011DAC6BBF003F671C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>02796C1B1DAC6E38003F671C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>02796C241DAC6E39003F671C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

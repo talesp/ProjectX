@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
 
+    @IBOutlet var tableView: UITableView?
+    
+    let dataSource = ClicentDataSource()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tableView?.register(class: BankClientCell.self)
+        tableView?.dataSource = dataSource
     }
 
     override func didReceiveMemoryWarning() {

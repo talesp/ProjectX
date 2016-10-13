@@ -7,14 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022E6F931DAF06F8007C8DFE /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E6F921DAF06F8007C8DFE /* Main.swift */; };
+		022E6F951DAF0A07007C8DFE /* BankAccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E6F941DAF0A07007C8DFE /* BankAccountClient.swift */; };
+		022E6F971DAF189E007C8DFE /* ClicentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E6F961DAF189E007C8DFE /* ClicentDataSource.swift */; };
+		022E6F991DAF19D7007C8DFE /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E6F981DAF19D7007C8DFE /* UITableView.swift */; };
+		022E6F9B1DAF1A07007C8DFE /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E6F9A1DAF1A07007C8DFE /* ReusableView.swift */; };
+		022E6F9D1DAF1A41007C8DFE /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E6F9C1DAF1A41007C8DFE /* NibLoadableView.swift */; };
+		022E6FA31DAF1BFA007C8DFE /* BankClientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E6FA11DAF1BFA007C8DFE /* BankClientCell.swift */; };
+		022E6FA41DAF1BFA007C8DFE /* BankClientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022E6FA21DAF1BFA007C8DFE /* BankClientCell.xib */; };
+		022E6FA61DAF28F6007C8DFE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E6FA51DAF28F6007C8DFE /* Result.swift */; };
+		022E6FA81DAF3C53007C8DFE /* NewBankAccountClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E6FA71DAF3C53007C8DFE /* NewBankAccountClientViewController.swift */; };
+		023162AE1DAE0352005AA6EB /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 023162AC1DAE0351005AA6EB /* AppIntentVocabulary.plist */; };
+		02581DAA1DAF00F400DF30F6 /* CoreProjectX.h in Headers */ = {isa = PBXBuildFile; fileRef = 02581DA81DAF00F400DF30F6 /* CoreProjectX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02581DAD1DAF00F400DF30F6 /* CoreProjectX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02581DA61DAF00F400DF30F6 /* CoreProjectX.framework */; };
+		02581DAE1DAF00F400DF30F6 /* CoreProjectX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02581DA61DAF00F400DF30F6 /* CoreProjectX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		02796C061DAC6BBF003F671C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02796C051DAC6BBF003F671C /* AppDelegate.swift */; };
 		02796C081DAC6BBF003F671C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02796C071DAC6BBF003F671C /* ViewController.swift */; };
 		02796C0B1DAC6BBF003F671C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02796C091DAC6BBF003F671C /* Main.storyboard */; };
 		02796C0D1DAC6BBF003F671C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02796C0C1DAC6BBF003F671C /* Assets.xcassets */; };
 		02796C101DAC6BBF003F671C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02796C0E1DAC6BBF003F671C /* LaunchScreen.storyboard */; };
+		02796C1F1DAC6E39003F671C /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02796C1E1DAC6E39003F671C /* IntentHandler.swift */; };
+		02796C281DAC6E39003F671C /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02796C271DAC6E39003F671C /* IntentsUI.framework */; };
+		02796C2B1DAC6E39003F671C /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02796C2A1DAC6E39003F671C /* IntentViewController.swift */; };
+		02796C2E1DAC6E39003F671C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02796C2C1DAC6E39003F671C /* MainInterface.storyboard */; };
+		02796C321DAC6E39003F671C /* SiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 02796C251DAC6E39003F671C /* SiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		02796C351DAC6E39003F671C /* Siri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 02796C1C1DAC6E38003F671C /* Siri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		02796C3F1DADF851003F671C /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02796C3E1DADF851003F671C /* PaymentHandler.swift */; };
+		02796C411DADFC75003F671C /* MessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02796C401DADFC75003F671C /* MessageHandler.swift */; };
+		5FFBECC1CF155C9857D5E953 /* Pods_Projeto_X.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAE801D57A6DA0B02DC4D33 /* Pods_Projeto_X.framework */; };
+		8CB0853BC0581C3EDB93FC86 /* Pods_Siri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D324218134C29831327E88 /* Pods_Siri.framework */; };
+		CAF50695FAAF12D5A3F75995 /* Pods_SiriUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18DD9BAB2DB67CEE4AE347B /* Pods_SiriUI.framework */; };
+		D68F17F5A786826201807F2A /* Pods_CoreProjectX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CBD8E29C59DDCF600BB143 /* Pods_CoreProjectX.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		02581DAB1DAF00F400DF30F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02796BFA1DAC6BBF003F671C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02581DA51DAF00F400DF30F6;
+			remoteInfo = CoreProjectX;
+		};
+		02796C301DAC6E39003F671C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02796BFA1DAC6BBF003F671C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02796C241DAC6E39003F671C;
+			remoteInfo = SiriUI;
+		};
+		02796C331DAC6E39003F671C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02796BFA1DAC6BBF003F671C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02796C1B1DAC6E38003F671C;
+			remoteInfo = Siri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		023162C41DAEE020005AA6EB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				02581DAE1DAF00F400DF30F6 /* CoreProjectX.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02796C3C1DAC6E39003F671C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				02796C321DAC6E39003F671C /* SiriUI.appex in Embed App Extensions */,
+				02796C351DAC6E39003F671C /* Siri.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		022E6F921DAF06F8007C8DFE /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		022E6F941DAF0A07007C8DFE /* BankAccountClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountClient.swift; sourceTree = "<group>"; };
+		022E6F961DAF189E007C8DFE /* ClicentDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClicentDataSource.swift; sourceTree = "<group>"; };
+		022E6F981DAF19D7007C8DFE /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		022E6F9A1DAF1A07007C8DFE /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		022E6F9C1DAF1A41007C8DFE /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		022E6FA11DAF1BFA007C8DFE /* BankClientCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankClientCell.swift; sourceTree = "<group>"; };
+		022E6FA21DAF1BFA007C8DFE /* BankClientCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankClientCell.xib; sourceTree = "<group>"; };
+		022E6FA51DAF28F6007C8DFE /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		022E6FA71DAF3C53007C8DFE /* NewBankAccountClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBankAccountClientViewController.swift; sourceTree = "<group>"; };
+		023162AD1DAE0351005AA6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		023162AF1DAE03E6005AA6EB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		023162B01DAE03E6005AA6EB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		023162B11DAE03E6005AA6EB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/MainInterface.strings"; sourceTree = "<group>"; };
+		023162B21DAE03E6005AA6EB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pt-BR"; path = "pt-BR.lproj/AppIntentVocabulary.plist"; sourceTree = "<group>"; };
+		02581DA61DAF00F400DF30F6 /* CoreProjectX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreProjectX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02581DA81DAF00F400DF30F6 /* CoreProjectX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreProjectX.h; sourceTree = "<group>"; };
+		02581DA91DAF00F400DF30F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02796C021DAC6BBF003F671C /* Projeto X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02796C051DAC6BBF003F671C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02796C071DAC6BBF003F671C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,24 +116,101 @@
 		02796C0C1DAC6BBF003F671C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02796C0F1DAC6BBF003F671C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02796C111DAC6BBF003F671C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02796C171DAC6BDD003F671C /* Projeto X.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Projeto X.entitlements"; sourceTree = "<group>"; };
+		02796C1C1DAC6E38003F671C /* Siri.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Siri.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		02796C1E1DAC6E39003F671C /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		02796C201DAC6E39003F671C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02796C251DAC6E39003F671C /* SiriUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		02796C271DAC6E39003F671C /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		02796C2A1DAC6E39003F671C /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		02796C2D1DAC6E39003F671C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		02796C2F1DAC6E39003F671C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02796C3E1DADF851003F671C /* PaymentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		02796C401DADFC75003F671C /* MessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageHandler.swift; sourceTree = "<group>"; };
+		2B1CF267A5F0B0C53101E79B /* Pods-SiriUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SiriUI/Pods-SiriUI.debug.xcconfig"; sourceTree = "<group>"; };
+		453E74C9C71727D073C9F8C1 /* Pods-CoreProjectX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreProjectX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreProjectX/Pods-CoreProjectX.debug.xcconfig"; sourceTree = "<group>"; };
+		67CBD8E29C59DDCF600BB143 /* Pods_CoreProjectX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreProjectX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E963261A87AF1DB1FCEC9A6 /* Pods-SiriUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiriUI/Pods-SiriUI.release.xcconfig"; sourceTree = "<group>"; };
+		96EA47257430AC3C755DA821 /* Pods-Projeto X.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Projeto X.release.xcconfig"; path = "Pods/Target Support Files/Pods-Projeto X/Pods-Projeto X.release.xcconfig"; sourceTree = "<group>"; };
+		A18DD9BAB2DB67CEE4AE347B /* Pods_SiriUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiriUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B7539F4148FDA61518D8B4 /* Pods-Siri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Siri/Pods-Siri.debug.xcconfig"; sourceTree = "<group>"; };
+		ADB5A9A1CA2F112A0541E38C /* Pods-CoreProjectX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreProjectX.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreProjectX/Pods-CoreProjectX.release.xcconfig"; sourceTree = "<group>"; };
+		B624F67B14005EA564E6084C /* Pods-Siri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siri.release.xcconfig"; path = "Pods/Target Support Files/Pods-Siri/Pods-Siri.release.xcconfig"; sourceTree = "<group>"; };
+		B8D324218134C29831327E88 /* Pods_Siri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Siri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92D6CCC28548987A8C548A8 /* Pods-Projeto X.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Projeto X.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Projeto X/Pods-Projeto X.debug.xcconfig"; sourceTree = "<group>"; };
+		DEAE801D57A6DA0B02DC4D33 /* Pods_Projeto_X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Projeto_X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		02581DA21DAF00F400DF30F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68F17F5A786826201807F2A /* Pods_CoreProjectX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02796BFF1DAC6BBF003F671C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02581DAD1DAF00F400DF30F6 /* CoreProjectX.framework in Frameworks */,
+				5FFBECC1CF155C9857D5E953 /* Pods_Projeto_X.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02796C191DAC6E38003F671C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0853BC0581C3EDB93FC86 /* Pods_Siri.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02796C221DAC6E39003F671C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02796C281DAC6E39003F671C /* IntentsUI.framework in Frameworks */,
+				CAF50695FAAF12D5A3F75995 /* Pods_SiriUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022E6FA01DAF1B57007C8DFE /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				022E6F981DAF19D7007C8DFE /* UITableView.swift */,
+				022E6F9A1DAF1A07007C8DFE /* ReusableView.swift */,
+				022E6F9C1DAF1A41007C8DFE /* NibLoadableView.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		02581DA71DAF00F400DF30F6 /* CoreProjectX */ = {
+			isa = PBXGroup;
+			children = (
+				022E6F921DAF06F8007C8DFE /* Main.swift */,
+				02581DA81DAF00F400DF30F6 /* CoreProjectX.h */,
+				02581DA91DAF00F400DF30F6 /* Info.plist */,
+				022E6F941DAF0A07007C8DFE /* BankAccountClient.swift */,
+				022E6FA51DAF28F6007C8DFE /* Result.swift */,
+			);
+			path = CoreProjectX;
+			sourceTree = "<group>";
+		};
 		02796BF91DAC6BBF003F671C = {
 			isa = PBXGroup;
 			children = (
 				02796C041DAC6BBF003F671C /* Projeto X */,
+				02796C1D1DAC6E39003F671C /* Siri */,
+				02796C291DAC6E39003F671C /* SiriUI */,
+				02581DA71DAF00F400DF30F6 /* CoreProjectX */,
+				02796C261DAC6E39003F671C /* Frameworks */,
 				02796C031DAC6BBF003F671C /* Products */,
+				5B323BA2C721F2BA84222614 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +218,9 @@
 			isa = PBXGroup;
 			children = (
 				02796C021DAC6BBF003F671C /* Projeto X.app */,
+				02796C1C1DAC6E38003F671C /* Siri.appex */,
+				02796C251DAC6E39003F671C /* SiriUI.appex */,
+				02581DA61DAF00F400DF30F6 /* CoreProjectX.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,35 +228,167 @@
 		02796C041DAC6BBF003F671C /* Projeto X */ = {
 			isa = PBXGroup;
 			children = (
+				02796C171DAC6BDD003F671C /* Projeto X.entitlements */,
 				02796C051DAC6BBF003F671C /* AppDelegate.swift */,
 				02796C071DAC6BBF003F671C /* ViewController.swift */,
 				02796C091DAC6BBF003F671C /* Main.storyboard */,
 				02796C0C1DAC6BBF003F671C /* Assets.xcassets */,
 				02796C0E1DAC6BBF003F671C /* LaunchScreen.storyboard */,
 				02796C111DAC6BBF003F671C /* Info.plist */,
+				023162AC1DAE0351005AA6EB /* AppIntentVocabulary.plist */,
+				022E6F961DAF189E007C8DFE /* ClicentDataSource.swift */,
+				022E6FA01DAF1B57007C8DFE /* extensions */,
+				022E6FA11DAF1BFA007C8DFE /* BankClientCell.swift */,
+				022E6FA21DAF1BFA007C8DFE /* BankClientCell.xib */,
+				022E6FA71DAF3C53007C8DFE /* NewBankAccountClientViewController.swift */,
 			);
 			path = "Projeto X";
 			sourceTree = "<group>";
 		};
+		02796C1D1DAC6E39003F671C /* Siri */ = {
+			isa = PBXGroup;
+			children = (
+				02796C1E1DAC6E39003F671C /* IntentHandler.swift */,
+				02796C201DAC6E39003F671C /* Info.plist */,
+				02796C3E1DADF851003F671C /* PaymentHandler.swift */,
+				02796C401DADFC75003F671C /* MessageHandler.swift */,
+			);
+			path = Siri;
+			sourceTree = "<group>";
+		};
+		02796C261DAC6E39003F671C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02796C271DAC6E39003F671C /* IntentsUI.framework */,
+				67CBD8E29C59DDCF600BB143 /* Pods_CoreProjectX.framework */,
+				DEAE801D57A6DA0B02DC4D33 /* Pods_Projeto_X.framework */,
+				B8D324218134C29831327E88 /* Pods_Siri.framework */,
+				A18DD9BAB2DB67CEE4AE347B /* Pods_SiriUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02796C291DAC6E39003F671C /* SiriUI */ = {
+			isa = PBXGroup;
+			children = (
+				02796C2A1DAC6E39003F671C /* IntentViewController.swift */,
+				02796C2C1DAC6E39003F671C /* MainInterface.storyboard */,
+				02796C2F1DAC6E39003F671C /* Info.plist */,
+			);
+			path = SiriUI;
+			sourceTree = "<group>";
+		};
+		5B323BA2C721F2BA84222614 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				453E74C9C71727D073C9F8C1 /* Pods-CoreProjectX.debug.xcconfig */,
+				ADB5A9A1CA2F112A0541E38C /* Pods-CoreProjectX.release.xcconfig */,
+				C92D6CCC28548987A8C548A8 /* Pods-Projeto X.debug.xcconfig */,
+				96EA47257430AC3C755DA821 /* Pods-Projeto X.release.xcconfig */,
+				A6B7539F4148FDA61518D8B4 /* Pods-Siri.debug.xcconfig */,
+				B624F67B14005EA564E6084C /* Pods-Siri.release.xcconfig */,
+				2B1CF267A5F0B0C53101E79B /* Pods-SiriUI.debug.xcconfig */,
+				7E963261A87AF1DB1FCEC9A6 /* Pods-SiriUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		02581DA31DAF00F400DF30F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02581DAA1DAF00F400DF30F6 /* CoreProjectX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		02796C011DAC6BBF003F671C /* Projeto X */ = {
+		02581DA51DAF00F400DF30F6 /* CoreProjectX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02796C141DAC6BBF003F671C /* Build configuration list for PBXNativeTarget "Projeto X" */;
+			buildConfigurationList = 02581DAF1DAF00F400DF30F6 /* Build configuration list for PBXNativeTarget "CoreProjectX" */;
 			buildPhases = (
-				02796BFE1DAC6BBF003F671C /* Sources */,
-				02796BFF1DAC6BBF003F671C /* Frameworks */,
-				02796C001DAC6BBF003F671C /* Resources */,
+				A40571A73ADE8E32F0BE75AF /* [CP] Check Pods Manifest.lock */,
+				02581DA11DAF00F400DF30F6 /* Sources */,
+				02581DA21DAF00F400DF30F6 /* Frameworks */,
+				02581DA31DAF00F400DF30F6 /* Headers */,
+				02581DA41DAF00F400DF30F6 /* Resources */,
+				FF23C1C7991CC5A2C0DAFB15 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = CoreProjectX;
+			productName = CoreProjectX;
+			productReference = 02581DA61DAF00F400DF30F6 /* CoreProjectX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		02796C011DAC6BBF003F671C /* Projeto X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02796C141DAC6BBF003F671C /* Build configuration list for PBXNativeTarget "Projeto X" */;
+			buildPhases = (
+				CE4CCA77D75560262DEE9880 /* [CP] Check Pods Manifest.lock */,
+				02796BFE1DAC6BBF003F671C /* Sources */,
+				02796BFF1DAC6BBF003F671C /* Frameworks */,
+				02796C001DAC6BBF003F671C /* Resources */,
+				02796C3C1DAC6E39003F671C /* Embed App Extensions */,
+				023162C41DAEE020005AA6EB /* Embed Frameworks */,
+				37DCABFFBB4F70D87EA86342 /* [CP] Embed Pods Frameworks */,
+				DBE02A94B9B4BE9B5E151D26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02796C311DAC6E39003F671C /* PBXTargetDependency */,
+				02796C341DAC6E39003F671C /* PBXTargetDependency */,
+				02581DAC1DAF00F400DF30F6 /* PBXTargetDependency */,
+			);
 			name = "Projeto X";
 			productName = "Projeto X";
 			productReference = 02796C021DAC6BBF003F671C /* Projeto X.app */;
 			productType = "com.apple.product-type.application";
+		};
+		02796C1B1DAC6E38003F671C /* Siri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02796C391DAC6E39003F671C /* Build configuration list for PBXNativeTarget "Siri" */;
+			buildPhases = (
+				94AE7041D85995BD7E9290FE /* [CP] Check Pods Manifest.lock */,
+				02796C181DAC6E38003F671C /* Sources */,
+				02796C191DAC6E38003F671C /* Frameworks */,
+				02796C1A1DAC6E38003F671C /* Resources */,
+				C2850D52484F0D36B783E66D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Siri;
+			productName = Siri;
+			productReference = 02796C1C1DAC6E38003F671C /* Siri.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		02796C241DAC6E39003F671C /* SiriUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02796C361DAC6E39003F671C /* Build configuration list for PBXNativeTarget "SiriUI" */;
+			buildPhases = (
+				17FCD8A3E3FAA57460B21A34 /* [CP] Check Pods Manifest.lock */,
+				02796C211DAC6E39003F671C /* Sources */,
+				02796C221DAC6E39003F671C /* Frameworks */,
+				02796C231DAC6E39003F671C /* Resources */,
+				F7CA4420E4D7ACBF7EBB63CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriUI;
+			productName = SiriUI;
+			productReference = 02796C251DAC6E39003F671C /* SiriUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -91,10 +397,34 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Tales Pinheiro De Andrade";
 				TargetAttributes = {
+					02581DA51DAF00F400DF30F6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HD5D5529VJ;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
 					02796C011DAC6BBF003F671C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HD5D5529VJ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					02796C1B1DAC6E38003F671C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HD5D5529VJ;
+						ProvisioningStyle = Automatic;
+					};
+					02796C241DAC6E39003F671C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = HD5D5529VJ;
 						ProvisioningStyle = Automatic;
@@ -108,6 +438,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 02796BF91DAC6BBF003F671C;
 			productRefGroup = 02796C031DAC6BBF003F671C /* Products */;
@@ -115,40 +446,267 @@
 			projectRoot = "";
 			targets = (
 				02796C011DAC6BBF003F671C /* Projeto X */,
+				02796C1B1DAC6E38003F671C /* Siri */,
+				02796C241DAC6E39003F671C /* SiriUI */,
+				02581DA51DAF00F400DF30F6 /* CoreProjectX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		02581DA41DAF00F400DF30F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02796C001DAC6BBF003F671C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				02796C101DAC6BBF003F671C /* LaunchScreen.storyboard in Resources */,
 				02796C0D1DAC6BBF003F671C /* Assets.xcassets in Resources */,
+				022E6FA41DAF1BFA007C8DFE /* BankClientCell.xib in Resources */,
+				023162AE1DAE0352005AA6EB /* AppIntentVocabulary.plist in Resources */,
 				02796C0B1DAC6BBF003F671C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02796C1A1DAC6E38003F671C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02796C231DAC6E39003F671C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02796C2E1DAC6E39003F671C /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17FCD8A3E3FAA57460B21A34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37DCABFFBB4F70D87EA86342 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Projeto X/Pods-Projeto X-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94AE7041D85995BD7E9290FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A40571A73ADE8E32F0BE75AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2850D52484F0D36B783E66D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Siri/Pods-Siri-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4CCA77D75560262DEE9880 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE02A94B9B4BE9B5E151D26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Projeto X/Pods-Projeto X-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7CA4420E4D7ACBF7EBB63CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SiriUI/Pods-SiriUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF23C1C7991CC5A2C0DAFB15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreProjectX/Pods-CoreProjectX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		02581DA11DAF00F400DF30F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022E6FA61DAF28F6007C8DFE /* Result.swift in Sources */,
+				022E6F951DAF0A07007C8DFE /* BankAccountClient.swift in Sources */,
+				022E6F931DAF06F8007C8DFE /* Main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02796BFE1DAC6BBF003F671C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022E6F9D1DAF1A41007C8DFE /* NibLoadableView.swift in Sources */,
+				022E6F971DAF189E007C8DFE /* ClicentDataSource.swift in Sources */,
+				022E6F9B1DAF1A07007C8DFE /* ReusableView.swift in Sources */,
+				022E6FA81DAF3C53007C8DFE /* NewBankAccountClientViewController.swift in Sources */,
+				022E6FA31DAF1BFA007C8DFE /* BankClientCell.swift in Sources */,
+				022E6F991DAF19D7007C8DFE /* UITableView.swift in Sources */,
 				02796C081DAC6BBF003F671C /* ViewController.swift in Sources */,
 				02796C061DAC6BBF003F671C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		02796C181DAC6E38003F671C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02796C1F1DAC6E39003F671C /* IntentHandler.swift in Sources */,
+				02796C411DADFC75003F671C /* MessageHandler.swift in Sources */,
+				02796C3F1DADF851003F671C /* PaymentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02796C211DAC6E39003F671C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02796C2B1DAC6E39003F671C /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		02581DAC1DAF00F400DF30F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02581DA51DAF00F400DF30F6 /* CoreProjectX */;
+			targetProxy = 02581DAB1DAF00F400DF30F6 /* PBXContainerItemProxy */;
+		};
+		02796C311DAC6E39003F671C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02796C241DAC6E39003F671C /* SiriUI */;
+			targetProxy = 02796C301DAC6E39003F671C /* PBXContainerItemProxy */;
+		};
+		02796C341DAC6E39003F671C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02796C1B1DAC6E38003F671C /* Siri */;
+			targetProxy = 02796C331DAC6E39003F671C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		023162AC1DAE0351005AA6EB /* AppIntentVocabulary.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023162AD1DAE0351005AA6EB /* Base */,
+				023162B21DAE03E6005AA6EB /* pt-BR */,
+			);
+			name = AppIntentVocabulary.plist;
+			sourceTree = "<group>";
+		};
 		02796C091DAC6BBF003F671C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				02796C0A1DAC6BBF003F671C /* Base */,
+				023162AF1DAE03E6005AA6EB /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -157,17 +715,77 @@
 			isa = PBXVariantGroup;
 			children = (
 				02796C0F1DAC6BBF003F671C /* Base */,
+				023162B01DAE03E6005AA6EB /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		02796C2C1DAC6E39003F671C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02796C2D1DAC6E39003F671C /* Base */,
+				023162B11DAE03E6005AA6EB /* pt-BR */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		02581DB01DAF00F400DF30F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453E74C9C71727D073C9F8C1 /* Pods-CoreProjectX.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HD5D5529VJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreProjectX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talesp.CoreProjectX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		02581DB11DAF00F400DF30F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB5A9A1CA2F112A0541E38C /* Pods-CoreProjectX.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HD5D5529VJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreProjectX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talesp.CoreProjectX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		02796C121DAC6BBF003F671C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -182,6 +800,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -218,6 +837,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -232,6 +852,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -259,8 +880,11 @@
 		};
 		02796C151DAC6BBF003F671C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92D6CCC28548987A8C548A8 /* Pods-Projeto X.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Projeto X/Projeto X.entitlements";
 				DEVELOPMENT_TEAM = HD5D5529VJ;
 				INFOPLIST_FILE = "Projeto X/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,8 +896,11 @@
 		};
 		02796C161DAC6BBF003F671C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EA47257430AC3C755DA821 /* Pods-Projeto X.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Projeto X/Projeto X.entitlements";
 				DEVELOPMENT_TEAM = HD5D5529VJ;
 				INFOPLIST_FILE = "Projeto X/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -283,9 +910,74 @@
 			};
 			name = Release;
 		};
+		02796C371DAC6E39003F671C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1CF267A5F0B0C53101E79B /* Pods-SiriUI.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HD5D5529VJ;
+				INFOPLIST_FILE = SiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talesp.Projeto-X.SiriUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		02796C381DAC6E39003F671C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E963261A87AF1DB1FCEC9A6 /* Pods-SiriUI.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HD5D5529VJ;
+				INFOPLIST_FILE = SiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talesp.Projeto-X.SiriUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		02796C3A1DAC6E39003F671C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B7539F4148FDA61518D8B4 /* Pods-Siri.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HD5D5529VJ;
+				INFOPLIST_FILE = Siri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talesp.Projeto-X.Siri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		02796C3B1DAC6E39003F671C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B624F67B14005EA564E6084C /* Pods-Siri.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HD5D5529VJ;
+				INFOPLIST_FILE = Siri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talesp.Projeto-X.Siri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02581DAF1DAF00F400DF30F6 /* Build configuration list for PBXNativeTarget "CoreProjectX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02581DB01DAF00F400DF30F6 /* Debug */,
+				02581DB11DAF00F400DF30F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		02796BFD1DAC6BBF003F671C /* Build configuration list for PBXProject "Projeto X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -302,6 +994,25 @@
 				02796C161DAC6BBF003F671C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02796C361DAC6E39003F671C /* Build configuration list for PBXNativeTarget "SiriUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02796C371DAC6E39003F671C /* Debug */,
+				02796C381DAC6E39003F671C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02796C391DAC6E39003F671C /* Build configuration list for PBXNativeTarget "Siri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02796C3A1DAC6E39003F671C /* Debug */,
+				02796C3B1DAC6E39003F671C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
